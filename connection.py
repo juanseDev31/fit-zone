@@ -46,12 +46,3 @@ class Connection:
     def releaseConnection(cls,connection):
         connection.close()
 
-
-if __name__ == '__main__':
-    # pool object creation
-    # pool = Connection.get_pool().get_connection()
-    # print(pool)
-    # get an object connection
-    connection1 = Connection.get_connection1()
-    print(connection1)
-    Connection.releaseConnection(connection1)
