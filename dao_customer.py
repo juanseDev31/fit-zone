@@ -81,26 +81,3 @@ class Dao_customer:
                 Connection.releaseConnection(connection)
 
 
-
-if __name__ == '__main__':
-
-    #insert
-    customer1 = Customer(name='Alejandris',last_name='Tellez',membership='300')
-    inserted_customers = Dao_customer.insert(customer1)
-    print(f'Inserted customers: {inserted_customers}')
-
-    #update
-    # customer_to_update = Customer(3,'Alexa','Tellez',400)
-    # updated_customers = Dao_customer.update(customer_to_update)
-    # print(f'Updated customers: {updated_customers}')
-
-    #delete
-    # customer_to_delete = Customer(3)
-    # deleted_customers = Dao_customer.delete(customer_to_delete)
-    # print(f'Deleted customers: {deleted_customers}')
-
-
-    customers = Dao_customer.select()
-    for customer in customers:
-        print(customer)
-
