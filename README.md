@@ -28,6 +28,7 @@
     ```bash
    .venv\Scripts\activate
 5. Create a .env in your python project
+
    DATABASE_URL=your_database_url
 DATABASE_USER=your_database_user
 DATABASE_PASSWORD=your_database_password
