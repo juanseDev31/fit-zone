@@ -1,7 +1,7 @@
 # Fit Zone
 
 ## Description
-**Fit Zone** is a Python project that implements a connection pool for interacting with a MySQL database using the **DAO (Data Access Object)** pattern. The project ensures secure management of sensitive information such as database credentials through environment variables.
+**Fit Zone** is a basic Python project (CRUD) that implements a connection pool for interacting with a MySQL database using the **DAO (Data Access Object)** pattern. The project ensures secure management of sensitive information such as database credentials through environment variables.
 
 ## Features
 - **Connection Pooling**: Efficient management of database connections.
